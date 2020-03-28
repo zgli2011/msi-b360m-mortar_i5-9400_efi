@@ -12,7 +12,7 @@
 
 - 支持MacOS 10.15.4
 - opencore 0.5.6
-- 添加windows引导，因为该主板不支持原生NVRAM，所以保留了opencore引导界面，如果是只安装了MacOS可以关闭引导项选择界面，开机自动进入MacOS
+- 开机自动进入MacOS，如果要进入Windows，在开机bios的引导项中添加windows选项(可以使用easyuefi或者老毛桃PE中自带了UEFI开机项的管理工具)，开机按F11/F2(每家主板不太一样，根据实际情况来)选择进入windows系统
 - ***clover版本请切换到clover分支***
 ---
 说明：本EFI文件是给予基于其他大佬提供打EFI文件修改，但是使用的显卡、CPU等硬件不一样，我又做了部分修改，以适用于自己的配置
