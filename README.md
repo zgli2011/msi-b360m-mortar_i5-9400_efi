@@ -10,10 +10,10 @@
 网卡|英特尔 Ethernet Connection  I219-V / 微星
 蓝牙|bcm94360cd
 
-- 支持macOS 10.15.4
+- 支持MacOS 10.15.4
 - opencore 0.5.6
-- clover版本请切换到clover分支
-- 启动界面只显示window启动项和mac启动项，无关分区都隐藏不显示
+- 添加windows引导，因为该主板不支持原生NVRAM，所以保留了opencore引导界面，如果是只安装了MacOS可以关闭引导项选择界面，开机自动进入MacOS
+- ***clover版本请切换到clover分支***
 ---
 说明：本EFI文件是给予基于其他大佬提供打EFI文件修改，但是使用的显卡、CPU等硬件不一样，我又做了部分修改，以适用于自己的配置
 >https://github.com/GeQ1an/MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI
