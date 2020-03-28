@@ -1,7 +1,8 @@
 # **msi-b360m-mortar_i5-9400_efi**
 
-处理器|英特尔 Core i5-9400 @ 2.90GHz 六核
+硬件|型号
 --|:---
+处理器|英特尔 Core i5-9400 @ 2.90GHz 六核
 主板|微星 B360M MORTAR (MS-7B23) ( B360 芯片组 )
 显卡|英特尔 UHD Graphics 630 ( 128 MB / 微星 )
 内存|16 GB ( 金士顿 DDR4 2666MHz )
