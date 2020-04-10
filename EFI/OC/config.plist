@@ -114,16 +114,12 @@
 			<true/>
 			<key>ForceExitBootServices</key>
 			<false/>
-			<key>ProtectCsmRegion</key>
-			<false/>
 			<key>ProtectSecureBoot</key>
 			<false/>
 			<key>ProvideCustomSlide</key>
 			<true/>
 			<key>SetupVirtualMap</key>
 			<true/>
-			<key>ShrinkMemoryMap</key>
-			<false/>
 			<key>SignalAppleOS</key>
 			<false/>
 		</dict>
@@ -216,6 +212,38 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCSuperIO</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>SMCBatteryManager.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SMCBatteryManager</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>SMCLightSensor.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SMCLightSensor</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -325,7 +353,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/CPUFriend</string>
 				<key>MaxKernel</key>
@@ -341,7 +369,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -519,10 +547,10 @@
 			<key>PickerMode</key>
 			<string>Builtin</string>
 			<key>HideAuxiliary</key>
-			<true/>
+			<false/>
 			<key>HideSelf</key>
 			<true/>
-			<key>PickerAttributes</key>
+			<key>ConsoleAttributes</key>
 			<integer>0</integer>
 			<key>PickerAudioAssist</key>
 			<false/>
@@ -551,7 +579,7 @@
 		<key>Security</key>
 		<dict>
 			<key>AllowNvramReset</key>
-			<true/>
+			<false/>
 			<key>AllowSetDefault</key>
 			<true/>
 			<key>AuthRestart</key>
@@ -563,7 +591,7 @@
 			<key>Vault</key>
 			<string>Optional</string>
 			<key>ScanPolicy</key>
-			<integer>0</integer>
+			<integer>983299</integer>
 		</dict>
 		<key>Tools</key>
 		<array>
@@ -704,7 +732,7 @@
 			<string>ApfsDriverLoader.efi</string>
 			<string>HfsPlus.efi</string>
 			<string>ExFatDxe.efi</string>
-			<string>FwRuntimeServices.efi</string>
+			<string>OpenRuntime.efi</string>
 		</array>
 		<key>Audio</key>
 		<dict>
