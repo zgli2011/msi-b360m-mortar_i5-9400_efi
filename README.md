@@ -20,8 +20,8 @@
 - [x] 键盘 / 鼠标唤醒
 - [x] 隔空投送 / 接力 / 随航
 
-- 支持MacOS 10.15.4
-- opencore 0.5.6
+- 支持MacOS 10.15.X
+- opencore 0.5.7
 - 开机自动进入MacOS，如果要进入Windows，在开机bios的引导项中添加windows选项(可以使用easyuefi或者老毛桃PE中自带了UEFI开机项的管理工具)，开机按F11/F2(每家主板不太一样，根据实际情况来)选择进入windows系统
 - ***clover版本请切换到clover分支***
 ---
