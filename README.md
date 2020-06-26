@@ -12,18 +12,33 @@
 蓝牙|bcm94360cd
 
 - [x] 板载有线网卡 / 无线网卡 / 蓝牙
+
 - [x] 核心显卡
+
 - [x] 板载声卡
+
 - [x] 睡眠
+
 - [x] 原生电源管理
+
 - [x] FaceTime / iMessage
+
 - [x] 键盘 / 鼠标唤醒
+
 - [x] 隔空投送 / 接力 / 随航
 
-- 支持MacOS 10.15.X
-- opencore 0.5.7
-- 开机自动进入MacOS，如果要进入Windows，在开机bios的引导项中添加windows选项(可以使用easyuefi或者老毛桃PE中自带了UEFI开机项的管理工具)，开机按F11/F2(每家主板不太一样，根据实际情况来)选择进入windows系统
-- ***clover版本请切换到clover分支***
+## 更新记录
+
+### 2020-06-26
+
+* 更新kexts到最新版本
+* 更新opencore到0.5.9
+
 ---
 说明：本EFI文件是给予基于其他大佬提供打EFI文件修改，但是使用的显卡、CPU等部分硬件不一样无法直接使用，我又做了部分修改，以适配自己的配置
+
 >https://github.com/GeQ1an/MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI
+
+- 开机自动进入MacOS，如果要进入Windows，在开机bios的引导项中添加windows选项(可以使用easyuefi或者老毛桃PE中自带了UEFI开机项的管理工具)，开机按F11/F2(每家主板不太一样，根据实际情况来)选择进入windows系统
+
+- ***clover版本请切换到clover分支***
