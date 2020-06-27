@@ -62,6 +62,8 @@ OC(Overclocking)\CPU 特征\Intel 虚拟化技术 [允许]*（必须）*
 OC(Overclocking)\CPU 特征\Intel VT-D 技术 [禁止]*（必须）*
 OC(Overclocking)\CPU 特征\CFG锁定 [禁止]*（必须）*
 
+---
+
 说明：本EFI文件是给予基于其他大佬提供打EFI文件修改，但是使用的显卡、CPU等部分硬件不一样无法直接使用，我又做了部分修改，以适配自己的配置
 
 >https://github.com/GeQ1an/MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI
