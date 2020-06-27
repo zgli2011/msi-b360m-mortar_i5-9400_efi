@@ -35,6 +35,33 @@
 * 更新opencore到0.5.9
 
 ---
+STTINGS\高级\PCI子系统设置\Above 4G memory/Crypto Currency mining [允许]
+
+STTINGS\高级\内建显示配置\设置第一显卡 [PEG]*（仅同时拥有核显及独显需要手动设置）*
+STTINGS\高级\内建显示配置\集显共享内存 [64M]*（如果使用拥有核显的处理器）*
+STTINGS\高级\内建显示配置\集成显卡多显示器 [允许]*（如果使用拥有核显的处理器）*
+
+STTINGS\高级\ACPI设置\电源 LED 灯 [双色]*（如果选择 [闪烁]，睡眠时电源灯将不断闪烁）*
+
+STTINGS\高级\USB设置\XHCI Hand-off [允许]
+STTINGS\高级\USB设置\传统USB支持 [允许]
+
+STTINGS\高级\电源管理设置\ErP Ready [允许]
+
+STTINGS\高级\Windows操作系统的配置\Windows 10 WHQL支持 [允许]*（开启为「纯」UEFI 模式，否则为「兼容」UEFI 模式，推荐设置为允许）*
+STTINGS\高级\Windows操作系统的配置\MSI 快速开机 [禁止]
+STTINGS\高级\Windows操作系统的配置\快速开机 [禁止]
+
+STTINGS\高级\唤醒事件设置\唤醒事件管理 [BIOS]
+STTINGS\高级\唤醒事件设置\USB设备从S3/S4/S5唤醒 [允许]
+
+STTINGS\启动\启动NumLock状态 [关]*（macOS 默认可使用数字键盘，只有 macOS 的话推荐关闭）*
+STTINGS\启动\启动模式选择 [UEFI]
+
+OC(Overclocking)\CPU 特征\Intel 虚拟化技术 [允许]*（必须）*
+OC(Overclocking)\CPU 特征\Intel VT-D 技术 [禁止]*（必须）*
+OC(Overclocking)\CPU 特征\CFG锁定 [禁止]*（必须）*
+
 说明：本EFI文件是给予基于其他大佬提供打EFI文件修改，但是使用的显卡、CPU等部分硬件不一样无法直接使用，我又做了部分修改，以适配自己的配置
 
 >https://github.com/GeQ1an/MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI
